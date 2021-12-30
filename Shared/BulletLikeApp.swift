@@ -13,7 +13,7 @@ struct BulletLikeApp: App {
     var body: some Scene {
         FirebaseApp.configure()
         return WindowGroup {
-            ContentView()
+            TaskListView(viewModel: TaskListViewModel())
         }
     }
 }

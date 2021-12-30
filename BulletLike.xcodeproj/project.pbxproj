@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		647F38F4F6ADE8B3AE1DCE67 /* Pods_Tests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A714EEC90B9D2186F3FCE6BA /* Pods_Tests_iOS.framework */; };
 		7BC839D1286FC393637DF83C /* Pods_BulletLike__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2CE6EF9847D62E085658E2 /* Pods_BulletLike__iOS_.framework */; };
 		CF2090D6C57BBDB618C5B3C3 /* Pods_BulletLike__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24EE89AD46050A2F5CB5E098 /* Pods_BulletLike__macOS_.framework */; };
+		D0BEE84F277DAEEC00C4E082 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BEE84E277DAEEC00C4E082 /* TaskView.swift */; };
+		D0BEE852277DB48D00C4E082 /* ColorScheme+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BEE851277DB48D00C4E082 /* ColorScheme+extension.swift */; };
+		D0BEE855277DB9A600C4E082 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BEE854277DB9A600C4E082 /* TaskListViewModel.swift */; };
+		D0BEE858277DD8F900C4E082 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BEE857277DD8F800C4E082 /* Task.swift */; };
+		D0BEE85D277DE5A500C4E082 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BEE857277DD8F800C4E082 /* Task.swift */; };
+		D0BEE85E277DE5E500C4E082 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BEE854277DB9A600C4E082 /* TaskListViewModel.swift */; };
+		D0BEE85F277DE5E900C4E082 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BEE84E277DAEEC00C4E082 /* TaskView.swift */; };
+		D0BEE860277DE5F000C4E082 /* ColorScheme+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BEE851277DB48D00C4E082 /* ColorScheme+extension.swift */; };
+		D0BEE868277DED0C00C4E082 /* BulletLikeTestsiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BEE867277DED0C00C4E082 /* BulletLikeTestsiOS.swift */; };
+		D0BEE86E277DED2000C4E082 /* TaskListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BEE85B277DE40000C4E082 /* TaskListViewModelTests.swift */; };
 		D0DCA5D5277B6C60002E6EC2 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCA5D4277B6C60002E6EC2 /* Tests_iOS.swift */; };
 		D0DCA5D7277B6C60002E6EC2 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCA5D6277B6C60002E6EC2 /* Tests_iOSLaunchTests.swift */; };
 		D0DCA5E1277B6C60002E6EC2 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCA5E0277B6C60002E6EC2 /* Tests_macOS.swift */; };
 		D0DCA5E3277B6C60002E6EC2 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCA5E2277B6C60002E6EC2 /* Tests_macOSLaunchTests.swift */; };
 		D0DCA5E4277B6C60002E6EC2 /* BulletLikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCA5BC277B6C5A002E6EC2 /* BulletLikeApp.swift */; };
 		D0DCA5E5277B6C60002E6EC2 /* BulletLikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCA5BC277B6C5A002E6EC2 /* BulletLikeApp.swift */; };
-		D0DCA5E6277B6C60002E6EC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCA5BD277B6C5A002E6EC2 /* ContentView.swift */; };
-		D0DCA5E7277B6C60002E6EC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCA5BD277B6C5A002E6EC2 /* ContentView.swift */; };
+		D0DCA5E6277B6C60002E6EC2 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCA5BD277B6C5A002E6EC2 /* TaskListView.swift */; };
+		D0DCA5E7277B6C60002E6EC2 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DCA5BD277B6C5A002E6EC2 /* TaskListView.swift */; };
 		D0DCA5E8277B6C60002E6EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DCA5BE277B6C5F002E6EC2 /* Assets.xcassets */; };
 		D0DCA5E9277B6C60002E6EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DCA5BE277B6C5F002E6EC2 /* Assets.xcassets */; };
 		D0DCA5F9277C8A8A002E6EC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0DCA5F8277C8A88002E6EC2 /* GoogleService-Info.plist */; };
@@ -28,6 +39,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D0BEE869277DED0C00C4E082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0DCA5B7277B6C59002E6EC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0DCA5C2277B6C60002E6EC2;
+			remoteInfo = "BulletLike (iOS)";
+		};
 		D0DCA5D1277B6C60002E6EC2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D0DCA5B7277B6C59002E6EC2 /* Project object */;
@@ -48,10 +66,19 @@
 		18A7AAA8DB49A787DB253BF0 /* Pods-BulletLike (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BulletLike (macOS).debug.xcconfig"; path = "Target Support Files/Pods-BulletLike (macOS)/Pods-BulletLike (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 		24EE89AD46050A2F5CB5E098 /* Pods_BulletLike__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BulletLike__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86DE64EDA6AD76C197A9D2DE /* Pods-BulletLike (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BulletLike (macOS).release.xcconfig"; path = "Target Support Files/Pods-BulletLike (macOS)/Pods-BulletLike (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		A714EEC90B9D2186F3FCE6BA /* Pods_Tests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACF08BC025B060C1BD4726E /* Pods-BulletLike (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BulletLike (iOS).debug.xcconfig"; path = "Target Support Files/Pods-BulletLike (iOS)/Pods-BulletLike (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 		AE4EFBEBB299711BB01D5973 /* Pods-BulletLike (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BulletLike (iOS).release.xcconfig"; path = "Target Support Files/Pods-BulletLike (iOS)/Pods-BulletLike (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		CE6E5FCA859E71FBF1341AFA /* Pods-Tests iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.debug.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D0BEE84E277DAEEC00C4E082 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		D0BEE851277DB48D00C4E082 /* ColorScheme+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorScheme+extension.swift"; sourceTree = "<group>"; };
+		D0BEE854277DB9A600C4E082 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		D0BEE857277DD8F800C4E082 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D0BEE85B277DE40000C4E082 /* TaskListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModelTests.swift; sourceTree = "<group>"; };
+		D0BEE865277DED0C00C4E082 /* BulletLikeTestsiOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BulletLikeTestsiOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BEE867277DED0C00C4E082 /* BulletLikeTestsiOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletLikeTestsiOS.swift; sourceTree = "<group>"; };
 		D0DCA5BC277B6C5A002E6EC2 /* BulletLikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletLikeApp.swift; sourceTree = "<group>"; };
-		D0DCA5BD277B6C5A002E6EC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0DCA5BD277B6C5A002E6EC2 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		D0DCA5BE277B6C5F002E6EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0DCA5C3277B6C60002E6EC2 /* BulletLike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulletLike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DCA5C9277B6C60002E6EC2 /* BulletLike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BulletLike.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,12 +90,20 @@
 		D0DCA5E0277B6C60002E6EC2 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		D0DCA5E2277B6C60002E6EC2 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		D0DCA5F8277C8A88002E6EC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D0DCA630277CA130002E6EC2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		D0DCA630277CA130002E6EC2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D0DCA633277CB20B002E6EC2 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E44C6FEA660908BCD0F23F5D /* Pods-Tests iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.release.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED2CE6EF9847D62E085658E2 /* Pods_BulletLike__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BulletLike__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D0BEE862277DED0C00C4E082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0DCA5C0277B6C60002E6EC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -89,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				647F38F4F6ADE8B3AE1DCE67 /* Pods_Tests_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +145,8 @@
 				AE4EFBEBB299711BB01D5973 /* Pods-BulletLike (iOS).release.xcconfig */,
 				18A7AAA8DB49A787DB253BF0 /* Pods-BulletLike (macOS).debug.xcconfig */,
 				86DE64EDA6AD76C197A9D2DE /* Pods-BulletLike (macOS).release.xcconfig */,
+				CE6E5FCA859E71FBF1341AFA /* Pods-Tests iOS.debug.xcconfig */,
+				E44C6FEA660908BCD0F23F5D /* Pods-Tests iOS.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -118,8 +156,68 @@
 			children = (
 				ED2CE6EF9847D62E085658E2 /* Pods_BulletLike__iOS_.framework */,
 				24EE89AD46050A2F5CB5E098 /* Pods_BulletLike__macOS_.framework */,
+				A714EEC90B9D2186F3FCE6BA /* Pods_Tests_iOS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0BEE84C277DAD1400C4E082 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0BEE853277DB98F00C4E082 /* TaskListView */,
+				D0BEE84D277DADD800C4E082 /* TaskView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0BEE84D277DADD800C4E082 /* TaskView */ = {
+			isa = PBXGroup;
+			children = (
+				D0BEE84E277DAEEC00C4E082 /* TaskView.swift */,
+			);
+			path = TaskView;
+			sourceTree = "<group>";
+		};
+		D0BEE850277DB47A00C4E082 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0BEE851277DB48D00C4E082 /* ColorScheme+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D0BEE853277DB98F00C4E082 /* TaskListView */ = {
+			isa = PBXGroup;
+			children = (
+				D0DCA5BD277B6C5A002E6EC2 /* TaskListView.swift */,
+				D0BEE854277DB9A600C4E082 /* TaskListViewModel.swift */,
+			);
+			path = TaskListView;
+			sourceTree = "<group>";
+		};
+		D0BEE856277DD8E800C4E082 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0BEE857277DD8F800C4E082 /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0BEE859277DE3D100C4E082 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0BEE85B277DE40000C4E082 /* TaskListViewModelTests.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0BEE866277DED0C00C4E082 /* BulletLikeTestsiOS */ = {
+			isa = PBXGroup;
+			children = (
+				D0BEE859277DE3D100C4E082 /* View */,
+				D0BEE867277DED0C00C4E082 /* BulletLikeTestsiOS.swift */,
+			);
+			path = BulletLikeTestsiOS;
 			sourceTree = "<group>";
 		};
 		D0DCA5B6277B6C59002E6EC2 = {
@@ -132,6 +230,7 @@
 				D0DCA5CA277B6C60002E6EC2 /* macOS */,
 				D0DCA5D3277B6C60002E6EC2 /* Tests iOS */,
 				D0DCA5DF277B6C60002E6EC2 /* Tests macOS */,
+				D0BEE866277DED0C00C4E082 /* BulletLikeTestsiOS */,
 				D0DCA5C4277B6C60002E6EC2 /* Products */,
 				6278D113EDE6638DBE325772 /* Pods */,
 				BB662555227C36802DB5577B /* Frameworks */,
@@ -141,8 +240,10 @@
 		D0DCA5BB277B6C5A002E6EC2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				D0BEE850277DB47A00C4E082 /* Extensions */,
+				D0BEE856277DD8E800C4E082 /* Model */,
+				D0BEE84C277DAD1400C4E082 /* View */,
 				D0DCA5BC277B6C5A002E6EC2 /* BulletLikeApp.swift */,
-				D0DCA5BD277B6C5A002E6EC2 /* ContentView.swift */,
 				D0DCA5BE277B6C5F002E6EC2 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -155,6 +256,7 @@
 				D0DCA5C9277B6C60002E6EC2 /* BulletLike.app */,
 				D0DCA5D0277B6C60002E6EC2 /* Tests iOS.xctest */,
 				D0DCA5DC277B6C60002E6EC2 /* Tests macOS.xctest */,
+				D0BEE865277DED0C00C4E082 /* BulletLikeTestsiOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,6 +290,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D0BEE864277DED0C00C4E082 /* BulletLikeTestsiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0BEE86D277DED0C00C4E082 /* Build configuration list for PBXNativeTarget "BulletLikeTestsiOS" */;
+			buildPhases = (
+				D0BEE861277DED0C00C4E082 /* Sources */,
+				D0BEE862277DED0C00C4E082 /* Frameworks */,
+				D0BEE863277DED0C00C4E082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0BEE86A277DED0C00C4E082 /* PBXTargetDependency */,
+			);
+			name = BulletLikeTestsiOS;
+			productName = BulletLikeTestsiOS;
+			productReference = D0BEE865277DED0C00C4E082 /* BulletLikeTestsiOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D0DCA5C2277B6C60002E6EC2 /* BulletLike (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0DCA5EC277B6C61002E6EC2 /* Build configuration list for PBXNativeTarget "BulletLike (iOS)" */;
@@ -230,9 +350,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0DCA5F2277B6C61002E6EC2 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
 			buildPhases = (
+				0CF2B3F3EF17CD6B195743B6 /* [CP] Check Pods Manifest.lock */,
 				D0DCA5CC277B6C60002E6EC2 /* Sources */,
 				D0DCA5CD277B6C60002E6EC2 /* Frameworks */,
 				D0DCA5CE277B6C60002E6EC2 /* Resources */,
+				D0EC35CC30F7E391EBF526B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,6 +394,10 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					D0BEE864277DED0C00C4E082 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D0DCA5C2277B6C60002E6EC2;
+					};
 					D0DCA5C2277B6C60002E6EC2 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -305,11 +431,19 @@
 				D0DCA5C8277B6C60002E6EC2 /* BulletLike (macOS) */,
 				D0DCA5CF277B6C60002E6EC2 /* Tests iOS */,
 				D0DCA5DB277B6C60002E6EC2 /* Tests macOS */,
+				D0BEE864277DED0C00C4E082 /* BulletLikeTestsiOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D0BEE863277DED0C00C4E082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0DCA5C1277B6C60002E6EC2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -349,6 +483,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0CF2B3F3EF17CD6B195743B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tests iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1B5B188D30479E373E06688A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,14 +583,44 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D0EC35CC30F7E391EBF526B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests iOS/Pods-Tests iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests iOS/Pods-Tests iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests iOS/Pods-Tests iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D0BEE861277DED0C00C4E082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BEE868277DED0C00C4E082 /* BulletLikeTestsiOS.swift in Sources */,
+				D0BEE86E277DED2000C4E082 /* TaskListViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D0DCA5BF277B6C60002E6EC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0DCA5E6277B6C60002E6EC2 /* ContentView.swift in Sources */,
+				D0BEE84F277DAEEC00C4E082 /* TaskView.swift in Sources */,
+				D0DCA5E6277B6C60002E6EC2 /* TaskListView.swift in Sources */,
+				D0BEE855277DB9A600C4E082 /* TaskListViewModel.swift in Sources */,
+				D0BEE852277DB48D00C4E082 /* ColorScheme+extension.swift in Sources */,
+				D0BEE858277DD8F900C4E082 /* Task.swift in Sources */,
 				D0DCA5E4277B6C60002E6EC2 /* BulletLikeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,7 +629,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0DCA5E7277B6C60002E6EC2 /* ContentView.swift in Sources */,
+				D0DCA5E7277B6C60002E6EC2 /* TaskListView.swift in Sources */,
+				D0BEE85E277DE5E500C4E082 /* TaskListViewModel.swift in Sources */,
+				D0BEE860277DE5F000C4E082 /* ColorScheme+extension.swift in Sources */,
+				D0BEE85D277DE5A500C4E082 /* Task.swift in Sources */,
+				D0BEE85F277DE5E900C4E082 /* TaskView.swift in Sources */,
 				D0DCA5E5277B6C60002E6EC2 /* BulletLikeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +659,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D0BEE86A277DED0C00C4E082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0DCA5C2277B6C60002E6EC2 /* BulletLike (iOS) */;
+			targetProxy = D0BEE869277DED0C00C4E082 /* PBXContainerItemProxy */;
+		};
 		D0DCA5D2277B6C60002E6EC2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D0DCA5C2277B6C60002E6EC2 /* BulletLike (iOS) */;
@@ -482,6 +677,57 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		D0BEE86B277DED0C00C4E082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2Z3DZ6JCW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bulletlike.BulletLikeTestsiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BulletLike.app/BulletLike";
+			};
+			name = Debug;
+		};
+		D0BEE86C277DED0C00C4E082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2Z3DZ6JCW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bulletlike.BulletLikeTestsiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BulletLike.app/BulletLike";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		D0DCA5EA277B6C60002E6EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -716,6 +962,7 @@
 		};
 		D0DCA5F3277B6C61002E6EC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6E5FCA859E71FBF1341AFA /* Pods-Tests iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -741,6 +988,7 @@
 		};
 		D0DCA5F4277B6C61002E6EC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E44C6FEA660908BCD0F23F5D /* Pods-Tests iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -818,6 +1066,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D0BEE86D277DED0C00C4E082 /* Build configuration list for PBXNativeTarget "BulletLikeTestsiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0BEE86B277DED0C00C4E082 /* Debug */,
+				D0BEE86C277DED0C00C4E082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D0DCA5BA277B6C59002E6EC2 /* Build configuration list for PBXProject "BulletLike" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
